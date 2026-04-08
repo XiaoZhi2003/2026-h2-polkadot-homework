@@ -1,0 +1,24 @@
+{
+  "version": 0,
+  "descriptorPath": ".papi/descriptors",
+  "entries": {
+    "wah": {
+      "chain": "westend2_asset_hub",
+      "metadata": ".papi/metadata/wah.scale",
+      "genesis": "0x67f9723393ef76214df0118c34bbbd3dbebc8ed46a10973a8c969d48fe7598c9",
+      "codeHash": "0x80faa9c8d81c6b74c191464d64e914a5e9e6264603f009e3cc072dd569aabbc0"
+    },
+    "westend": {
+      "chain": "westend2",
+      "metadata": ".papi/metadata/westend.scale",
+      "genesis": "0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
+      "codeHash": "0x5e9ade55f0c3325087afdc20cf1b09e02c175c6f48ba080025a59aa03a7570a2"
+    },
+    "pah": {
+      "chain": "paseo_asset_hub",
+      "metadata": ".papi/metadata/pah.scale",
+      "genesis": "0xd6eec26135305a8ad257a20d003357284c8aa03d0bdb2b357ab0a22371e11ef2",
+      "codeHash": "0x3b36085f46d6213d6f5a2fb26415d7c46da8e397977f2f7404ac431931ab5ae6"
+    }
+  }
+}

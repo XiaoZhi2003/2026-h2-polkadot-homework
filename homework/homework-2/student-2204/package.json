@@ -1,0 +1,24 @@
+{
+  "name": "student-2204",
+  "version": "1.0.0",
+  "description": "Homework 2 - Polkadot Testnet 地址转换 & Precompile 调用",
+  "main": "index.js",
+  "scripts": {
+    "task1": "tsx src/task1-address-conversion.ts",
+    "task2": "tsx src/task2-precompile.ts",
+    "postinstall": "npx papi"
+  },
+  "keywords": [],
+  "author": "student-2204",
+  "license": "ISC",
+  "dependencies": {
+    "@polkadot-api/descriptors": "file:.papi/descriptors",
+    "@polkadot/util": "^14.0.3",
+    "@polkadot/util-crypto": "^14.0.3",
+    "ethers": "^6.16.0",
+    "polkadot-api": "^1.23.3",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2",
+    "viem": "^2.47.10"
+  }
+}
