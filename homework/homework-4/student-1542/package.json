@@ -1,0 +1,30 @@
+{
+  "name": "viem-blockchain-app",
+  "version": "1.0.0",
+  "description": "Comprehensive blockchain development with Viem",
+  "main": "dist/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc --noEmitOnError false --skipLibCheck --allowJs",
+    "start": "node dist/index.js",
+    "dev": "tsc --noEmitOnError false --skipLibCheck --allowJs && node dist/index.js",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "viem",
+    "blockchain",
+    "ethereum",
+    "web3"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "viem": "^2.48.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
