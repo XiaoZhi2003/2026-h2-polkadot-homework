@@ -1,0 +1,31 @@
+{
+  "name": "polkadot-evm-dapp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "compile:contract": "node scripts/compile-bkc-contract.mjs",
+    "verify:contract": "node scripts/verify-bkc-contract.mjs",
+    "verify:functions": "node scripts/verify-contract-functions.mjs",
+    "verify:components": "node scripts/assert-no-component-chinese.mjs",
+    "verify:network": "node scripts/verify-network-state.mjs",
+    "verify:all": "npm run compile:contract && npm run verify:contract && npm run verify:functions && npm run verify:components && npm run verify:network && npm run build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@wagmi/connectors": "^5.7.7",
+    "@wagmi/core": "^2.16.7",
+    "viem": "^2.30.6",
+    "vue": "^3.5.13",
+    "vue-i18n": "^9.14.4",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "^5.1.0",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "solc": "^0.8.34",
+    "vite": "^6.3.3"
+  }
+}
